@@ -19,12 +19,15 @@ Częstotliwość próbkowania (SR): 16000 Hz, rozmiar okna (n_fft): 512, krok pr
 ## 3. Wyniki
 
 Samogłoska ("a"): Wykres jest płaski i poziomy. Dźwięk się nie zmienia, a wartości MFCC są stałe w czasie.
+
 ![alt text](image.png)
 
 Wyraz ("Adrian"): Widać wyraźne zmiany artykulacji. Samogłoski ("A", "i", "a") tworzą głośne, poziome pasma energii w dolnych rejestrach. Spółgłoska "d" jest widoczna jako krótka chwila ciszy (zwarcie) zakończona pikiem, a nosowe "n" na końcu ma zredukowaną, ciemniejszą energię.
+
 ![alt text](image-1.png)
 
 Zdanie(Jutro znowu będzie padał deszcz): Można zauważyć pionowe puste paski, które oznaczają momenty ciszy między słowami. Najciekawiej wygląda końcówka, "deszcz" – szeleszczące dźwięki "sz" i "cz" wyglądają na obrazku jak jasna plama na samej górze (co oznacza, że są to bardzo wysokie tony).
+
 ![alt text](image-2.png)
 
 ## 4. Analiza i interpretacja
