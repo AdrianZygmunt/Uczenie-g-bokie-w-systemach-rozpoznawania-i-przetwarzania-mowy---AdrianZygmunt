@@ -13,7 +13,7 @@ Celem ćwiczenia jest sprawdzenie skuteczności modelu GRU w prognozie jedno- i 
 
 - **Narzędzia i model:** Język Python, biblioteka PyTorch. Zastosowano jednowarstwowy model GRU (`hidden_size=32`) połączony z warstwą liniową. 
 - **Dane:** Średnia dzienna temperatura dla Warszawy (2020-2023) pobrana przez API Open-Meteo.
-- **Konfiguracja:** Zbiór podzielono na treningowy (70%), walidacyjny (15%) i testowy (15%). Horyzont prognozy (H) wynosił 14 dni. Testowano rozmiary okien czasowych wejściowych na poziomie 3, 7 i 28 dni przy użyciu optymalizatora Adam (epoki=40, lr=0.01). Zrealizowano również odwrócenie osi Y dla lepszej wizualizacji w kodzie.
+- **Konfiguracja:** Zbiór podzielono na treningowy (70%), walidacyjny (15%) i testowy (15%). Horyzont prognozy (H) wynosił 14 dni. Testowano rozmiary okien czasowych wejściowych na poziomie 3, 7 i 28 dni przy użyciu optymalizatora Adam (epoki=40, lr=0.01). Zrealizowano również odwrócenie osi Y dla lepszej wizualizacji w kodzie. Cały kod: https://github.com/AdrianZygmunt/Uczenie-g-bokie-w-systemach-rozpoznawania-i-przetwarzania-mowy---AdrianZygmunt/tree/main/L3
 
 ## 3. Wyniki
 
