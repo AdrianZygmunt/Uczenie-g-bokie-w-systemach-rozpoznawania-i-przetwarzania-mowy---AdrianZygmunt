@@ -14,7 +14,7 @@ Celem laboratorium było zbadanie procesu przetwarzania tekstu od ciągu znaków
   - Zdania tła bez słowa "zamek" (np. *Klucz leżał na drewnianym stole w kuchni.*).
 - **Tokenizacja BPE:** Przetestowano trzy limity słownika: 50, 150 oraz 500. Tokenizator wykorzystywał pre-tokenizację po spacjach (Whitespace) oraz token `[UNK]` dla znaków nieznanych.
 - **Word2Vec:** Użyto modelu Skip-gram (`sg=1`) uczonego przez 200 epok, generującego wektory o wymiarze 50 (`vector_size=50`), z oknem o rozmiarze 3 i zignorowaniem słów rzadszych niż 2 wystąpienia (`min_count=2`): 5]. Do oceny wpływu kontekstu przygotowano drugi wariant korpusu (69 zdań) zdominowany przez znaczenie "budowla".
-
+- **Kod:** https://github.com/AdrianZygmunt/Uczenie-g-bokie-w-systemach-rozpoznawania-i-przetwarzania-mowy---AdrianZygmunt/tree/main/L5
 ## 3. Wyniki
 
 **Tabela: Wpływ limitu słownika na tokenizację form niewidzianych (BPE)**
