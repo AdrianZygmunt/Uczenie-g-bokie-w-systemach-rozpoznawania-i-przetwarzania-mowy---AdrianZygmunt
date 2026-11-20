@@ -31,7 +31,7 @@ Fragment po oczyszczeniu:
 
 **Słownik i dane.** Słownik `stoi`/`itos` zbudowano tylko na treningu (posortowany zbiór znaków) i użyto go we wszystkich zbiorach; ID 0 zarezerwowano dla znaku nieznanego `<unk>`. `DatasetZnakowy` zwraca `x = dane[i:i+SEKW]` i `y = dane[i+1:i+SEKW+1]`, liczba par to `max(0, N − SEKW)`, krok okna wynosi 1. Ustawienia: `SEKW = 40`, `batch_size = 32`; trening: `shuffle=True`, `drop_last=True`; walidacja i test: `shuffle=False`, `drop_last=False`; `torch.manual_seed(0)`.
 
-Kod: https://github.com/AdrianZygmunt/Uczenie-g-bokie-w-systemach-rozpoznawania-iprzetwarzania-mowy---AdrianZygmunt/tree/main/L6
+Kod: https://github.com/AdrianZygmunt/Uczenie-g-bokie-w-systemach-rozpoznawania-i-przetwarzania-mowy---AdrianZygmunt/tree/main/L6
 
 ## 3. Wyniki
 
