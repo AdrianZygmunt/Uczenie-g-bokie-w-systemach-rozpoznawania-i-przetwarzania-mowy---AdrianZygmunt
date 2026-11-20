@@ -88,4 +88,4 @@ Podział przed utworzeniem okien jest konieczny: sąsiednie okna różnią się 
 
 1. Podział tekstu na rozłączne, ciągłe fragmenty (80/10/10) przed tworzeniem okien zapobiega przeciekowi danych; słownik zbudowany tylko na treningu pokrył walidację i test w całości (0 znaków spoza słownika), a `<unk>` zabezpiecza kodowanie na przyszłość.
 2. Kontrola treści (odkodowanie pary i porównanie z tekstem źródłowym, w tym ostatniego znaku celu) wykrywa błędy przesunięcia, których nie zdradzają kształt tensorów ani zakres ID.
-3. Przy kroku okna równym 1 wydłużanie `SEKW` (20 → 160) prawie nie zmienia liczby par (spadek o 140 w każdym zbiorze), ale zwiększa kontekst widziany przez model; wybór `SEKW` jest więc kompromisem między długością zależności a kosztem obliczeń. Korpus, podział i słownik zachowano (`dane_lab6/`) do treningu na zajęciach 7.
+3. Przy kroku okna równym 1 wydłużanie `SEKW` (20 → 160) prawie nie zmienia liczby par (spadek o 140 w każdym zbiorze), ale zwiększa kontekst widziany przez model; wybór `SEKW` jest więc kompromisem między długością zależności a kosztem obliczeń.
